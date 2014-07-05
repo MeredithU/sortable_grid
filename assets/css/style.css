@@ -1,0 +1,74 @@
+/***************************************************
+	Page Styling
+***************************************************/
+
+html, body {
+	font-family: 'Raleway-Light', 'Verdana', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+/***************************************************
+	Page Title
+***************************************************/
+
+.title {
+	text-align: center;
+	border-bottom: 1px solid #e2e2e2;
+	width: 830px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.title h2 {
+	font-family: 'Raleway-Light', 'Verdana', sans-serif;
+	font-size: 40px;
+}
+
+.title p {
+	font-family: 'Lato', 'Verdana', sans-serif;
+	color: #7f7f7f;
+}
+
+/***************************************************
+	Box Grid
+***************************************************/
+
+.canvas {
+	width: 850px;
+	display: block;
+	margin: 0 auto;
+}
+
+ul.canvas {
+	padding: 30px;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+}
+
+.block {
+	position: relative;
+	list-style: none;
+	cursor: move;
+	webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: #9eccb3;
+	float: left;
+	margin: 10px;
+}
+
+
